@@ -1,6 +1,6 @@
 context:
   name: geoh5-interop
-  version: "1.3.1"
+  version: "1.4.0"
   python_min: '3.10'
   module_name: ${{ name|lower|replace("-", "_") }}
 
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://github.com/MiraGeoscience/${{ name }}/archive/v${{ version }}.tar.gz
-  sha256: 9debc9b9f1da014546534d446cf8e9803cf943f650e0d8fe20c8db437d486ed8
+  sha256: 0c4f6809351ac24c3685f3478e88f066bd724e835a94e2036afe08d92fb0418e
 
 build:
   number: 0
